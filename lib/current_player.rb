@@ -15,4 +15,3 @@ turn_count(board).even?
 turn_count(board).odd?
   return "O"
 end
-end
