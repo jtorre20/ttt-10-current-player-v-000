@@ -10,8 +10,8 @@ end
 
 
 def current_player(board)
-turn_count(board).even?
-  return "X"
-turn_count(board).odd?
-  return "O"
+#turn_count(board).even?
+  #return "X"
+turn_count(board).odd? == true
+  return "O" : "X"
 end
